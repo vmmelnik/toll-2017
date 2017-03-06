@@ -1,1 +1,5 @@
 **/*.iml
+**/.*
+!/.gitignore
+/gradlew
+/gradlew.bat
