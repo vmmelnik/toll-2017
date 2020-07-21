@@ -8,7 +8,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 /**
- * Created by jdev on 06.03.2017.
+ * Created by vmmelnik on 21.07.2020.
  */
 public class PointDTOTest {
 
@@ -21,9 +21,7 @@ public class PointDTOTest {
         point.setLat(56);
         point.setLon(74);
         point.setAutoId("o567gfd");
-        point.setTime(System.currentTimeMillis());
         assertTrue(point.toJson().contains("\"lat\":56"));
-        assertTrue(point.toJson().contains("\"time\":"));
         System.out.println(point.toJson());
     }
 
